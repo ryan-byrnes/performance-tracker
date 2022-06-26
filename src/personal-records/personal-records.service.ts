@@ -6,4 +6,8 @@ import { PersonalRecords } from "./personal-records.model";
 export class PersonalRecordsService {
     personalRecords: PersonalRecords[] = [];
 
+    addNewPersonalRecord(exerciseName: string, repMax: number, weight: number) {
+        
+    } 
+
 }
